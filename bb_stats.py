@@ -1,4 +1,6 @@
 # bb_stats.py
+# Bob Staten
+# 4/21/2019
 
 base_hits = []
 at_bats = []
@@ -18,5 +20,5 @@ def stats_j(hits,abs,rbis):
   return ('Batting avg: %s' % avg + '\n' + ' ' + 'Runs batted in: %d' % tot_rbis)
 
 # execution
-#print stats_j(2,3,1)
+print stats_j(2,3,1)
   
