@@ -2,6 +2,8 @@
 # Bob Staten
 # 4/21/2019
 
+# a python program to calculate a running batting average
+
 base_hits = []
 at_bats = []
 runs = []
@@ -20,5 +22,8 @@ def stats_j(hits,abs,rbis):
   return ('Batting avg: %s' % avg + '\n' + ' ' + 'Runs batted in: %d' % tot_rbis)
 
 # execution
+# here's the problem. I want to store stats in a file instead of keeping them in the code itself as below
+stats_j(0,3,1)
+stats_j(1,3,2)
 print stats_j(2,3,1)
   
