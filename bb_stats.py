@@ -1,7 +1,7 @@
 # bb_stats.py
 # Bob Staten
 # 4/21/2019
-
+#adam start
 # a python program to calculate a running batting average
 
 base_hits = []
